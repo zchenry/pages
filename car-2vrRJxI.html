@@ -2,7 +2,7 @@
     <p>タスクの説明</p>
     <p>
     車の画像に対する「好き嫌い」を判断してもらいます．<br/>
-    本ページは15ページ中の2ページ目です．<br/>
+    本ページは9ページ中の2ページ目です．<br/>
     好き嫌いを直接判定する質問50問に答えてください．<br/>
     </p>
     <input type='text' id='lancer' data-page='2' style='width: 300', placeholder='Lancers Nicknameを入力してください'>
@@ -316,7 +316,13 @@
     
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
-  var ans = new Array(100).fill(0);
+  var lans;
+  var page = parseInt($('#lancer').data('page'));
+  if (page <= 3) {
+    var ans = new Array(100).fill(0);
+  } else {
+    var ans = new Array(200).fill(0);
+  }
 
   $('input:text').on('input', function() {
       $('#warn').hide();
@@ -338,8 +344,6 @@
           $('#warn').show();
           $('#btn').text('提出');
       } else {
-          page = parseInt($('#lancer').data('page'));
-
           var dict = {'id': $('#lancer').val(), 'page': page, 'ans': ans.toString()};
           $.ajax({
               url: 'https://script.google.com/macros/s/AKfycbyCqM1TUoHtIapRCpSCqi8QaTFLtPqK2nt20SGVOhalD8wjuMw/exec',
@@ -348,7 +352,7 @@
               data: dict,
               success: function(res) {
                   $('#btn').text('提出完了しました');
-                  if (page == 15) {
+                  if (page == 9) {
                       $('span#spanw').text(res['password']);
                       $('p#pw').show();
                   } else {
