@@ -1,712 +1,612 @@
 
     <p>タスクの説明</p>
     <p>
-    車の画像に対する「好き嫌い」を判断してもらいます．<br/>
+    <strong>車のデザイン</strong>に対する印象を判断してもらいます．<br/>
     本ページは9ページ中の3ページ目です．<br/>
-    ２つの画像の中で好きな方を選ぶ質問50問に答えてください．<br/>
+    車のデザインに対する印象を判定する質問50問に答えてください．<br/>
     </p>
     <input type='text' id='lancer' data-page='3' style='width: 300', placeholder='Lancers Nicknameを入力してください'>
     <table style='border-collapse: collapse'><tbody>
-    <tr style='border-top: 2pt solid black'><td colspan='2'>質問1:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/009.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/018.jpg'></td></tr>
-            <tr><td><input name='1' type='radio' value='1'>「左」</td>
-            <td><input name='1' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='2' type='radio' value='1'>簡単
-            <input name='2' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='3' type='radio' value='1'>「右の画像」が簡単
-            <input name='3' type='radio' value='2'>「右の画像」が難しい
-            <input name='3' type='radio' value='3'>両方が同じく簡単
-            <input name='3' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問2:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/008.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/016.jpg'></td></tr>
-            <tr><td><input name='4' type='radio' value='1'>「左」</td>
-            <td><input name='4' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='5' type='radio' value='1'>簡単
-            <input name='5' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='6' type='radio' value='1'>「右の画像」が簡単
-            <input name='6' type='radio' value='2'>「右の画像」が難しい
-            <input name='6' type='radio' value='3'>両方が同じく簡単
-            <input name='6' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問3:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/003.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/017.jpg'></td></tr>
-            <tr><td><input name='7' type='radio' value='1'>「左」</td>
-            <td><input name='7' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='8' type='radio' value='1'>簡単
-            <input name='8' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='9' type='radio' value='1'>「右の画像」が簡単
-            <input name='9' type='radio' value='2'>「右の画像」が難しい
-            <input name='9' type='radio' value='3'>両方が同じく簡単
-            <input name='9' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問4:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/018.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/021.jpg'></td></tr>
-            <tr><td><input name='10' type='radio' value='1'>「左」</td>
-            <td><input name='10' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='11' type='radio' value='1'>簡単
-            <input name='11' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='12' type='radio' value='1'>「右の画像」が簡単
-            <input name='12' type='radio' value='2'>「右の画像」が難しい
-            <input name='12' type='radio' value='3'>両方が同じく簡単
-            <input name='12' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問5:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/005.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/024.jpg'></td></tr>
-            <tr><td><input name='13' type='radio' value='1'>「左」</td>
-            <td><input name='13' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='14' type='radio' value='1'>簡単
-            <input name='14' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='15' type='radio' value='1'>「右の画像」が簡単
-            <input name='15' type='radio' value='2'>「右の画像」が難しい
-            <input name='15' type='radio' value='3'>両方が同じく簡単
-            <input name='15' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問6:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/007.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/020.jpg'></td></tr>
-            <tr><td><input name='16' type='radio' value='1'>「左」</td>
-            <td><input name='16' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='17' type='radio' value='1'>簡単
-            <input name='17' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='18' type='radio' value='1'>「右の画像」が簡単
-            <input name='18' type='radio' value='2'>「右の画像」が難しい
-            <input name='18' type='radio' value='3'>両方が同じく簡単
-            <input name='18' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問7:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/008.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/018.jpg'></td></tr>
-            <tr><td><input name='19' type='radio' value='1'>「左」</td>
-            <td><input name='19' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='20' type='radio' value='1'>簡単
-            <input name='20' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='21' type='radio' value='1'>「右の画像」が簡単
-            <input name='21' type='radio' value='2'>「右の画像」が難しい
-            <input name='21' type='radio' value='3'>両方が同じく簡単
-            <input name='21' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問8:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/014.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/021.jpg'></td></tr>
-            <tr><td><input name='22' type='radio' value='1'>「左」</td>
-            <td><input name='22' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='23' type='radio' value='1'>簡単
-            <input name='23' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='24' type='radio' value='1'>「右の画像」が簡単
-            <input name='24' type='radio' value='2'>「右の画像」が難しい
-            <input name='24' type='radio' value='3'>両方が同じく簡単
-            <input name='24' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問9:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/024.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/025.jpg'></td></tr>
-            <tr><td><input name='25' type='radio' value='1'>「左」</td>
-            <td><input name='25' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='26' type='radio' value='1'>簡単
-            <input name='26' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='27' type='radio' value='1'>「右の画像」が簡単
-            <input name='27' type='radio' value='2'>「右の画像」が難しい
-            <input name='27' type='radio' value='3'>両方が同じく簡単
-            <input name='27' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問10:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/004.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/012.jpg'></td></tr>
-            <tr><td><input name='28' type='radio' value='1'>「左」</td>
-            <td><input name='28' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='29' type='radio' value='1'>簡単
-            <input name='29' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='30' type='radio' value='1'>「右の画像」が簡単
-            <input name='30' type='radio' value='2'>「右の画像」が難しい
-            <input name='30' type='radio' value='3'>両方が同じく簡単
-            <input name='30' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問11:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/005.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/012.jpg'></td></tr>
-            <tr><td><input name='31' type='radio' value='1'>「左」</td>
-            <td><input name='31' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='32' type='radio' value='1'>簡単
-            <input name='32' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='33' type='radio' value='1'>「右の画像」が簡単
-            <input name='33' type='radio' value='2'>「右の画像」が難しい
-            <input name='33' type='radio' value='3'>両方が同じく簡単
-            <input name='33' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問12:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/008.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/010.jpg'></td></tr>
-            <tr><td><input name='34' type='radio' value='1'>「左」</td>
-            <td><input name='34' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='35' type='radio' value='1'>簡単
-            <input name='35' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='36' type='radio' value='1'>「右の画像」が簡単
-            <input name='36' type='radio' value='2'>「右の画像」が難しい
-            <input name='36' type='radio' value='3'>両方が同じく簡単
-            <input name='36' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問13:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/009.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/015.jpg'></td></tr>
-            <tr><td><input name='37' type='radio' value='1'>「左」</td>
-            <td><input name='37' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='38' type='radio' value='1'>簡単
-            <input name='38' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='39' type='radio' value='1'>「右の画像」が簡単
-            <input name='39' type='radio' value='2'>「右の画像」が難しい
-            <input name='39' type='radio' value='3'>両方が同じく簡単
-            <input name='39' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問14:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/009.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/024.jpg'></td></tr>
-            <tr><td><input name='40' type='radio' value='1'>「左」</td>
-            <td><input name='40' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='41' type='radio' value='1'>簡単
-            <input name='41' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='42' type='radio' value='1'>「右の画像」が簡単
-            <input name='42' type='radio' value='2'>「右の画像」が難しい
-            <input name='42' type='radio' value='3'>両方が同じく簡単
-            <input name='42' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問15:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/005.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/022.jpg'></td></tr>
-            <tr><td><input name='43' type='radio' value='1'>「左」</td>
-            <td><input name='43' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='44' type='radio' value='1'>簡単
-            <input name='44' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='45' type='radio' value='1'>「右の画像」が簡単
-            <input name='45' type='radio' value='2'>「右の画像」が難しい
-            <input name='45' type='radio' value='3'>両方が同じく簡単
-            <input name='45' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問16:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/011.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/022.jpg'></td></tr>
-            <tr><td><input name='46' type='radio' value='1'>「左」</td>
-            <td><input name='46' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='47' type='radio' value='1'>簡単
-            <input name='47' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='48' type='radio' value='1'>「右の画像」が簡単
-            <input name='48' type='radio' value='2'>「右の画像」が難しい
-            <input name='48' type='radio' value='3'>両方が同じく簡単
-            <input name='48' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問17:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/010.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/018.jpg'></td></tr>
-            <tr><td><input name='49' type='radio' value='1'>「左」</td>
-            <td><input name='49' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='50' type='radio' value='1'>簡単
-            <input name='50' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='51' type='radio' value='1'>「右の画像」が簡単
-            <input name='51' type='radio' value='2'>「右の画像」が難しい
-            <input name='51' type='radio' value='3'>両方が同じく簡単
-            <input name='51' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問18:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/021.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/024.jpg'></td></tr>
-            <tr><td><input name='52' type='radio' value='1'>「左」</td>
-            <td><input name='52' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='53' type='radio' value='1'>簡単
-            <input name='53' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='54' type='radio' value='1'>「右の画像」が簡単
-            <input name='54' type='radio' value='2'>「右の画像」が難しい
-            <input name='54' type='radio' value='3'>両方が同じく簡単
-            <input name='54' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問19:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/002.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/025.jpg'></td></tr>
-            <tr><td><input name='55' type='radio' value='1'>「左」</td>
-            <td><input name='55' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='56' type='radio' value='1'>簡単
-            <input name='56' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='57' type='radio' value='1'>「右の画像」が簡単
-            <input name='57' type='radio' value='2'>「右の画像」が難しい
-            <input name='57' type='radio' value='3'>両方が同じく簡単
-            <input name='57' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問20:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/001.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/007.jpg'></td></tr>
-            <tr><td><input name='58' type='radio' value='1'>「左」</td>
-            <td><input name='58' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='59' type='radio' value='1'>簡単
-            <input name='59' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='60' type='radio' value='1'>「右の画像」が簡単
-            <input name='60' type='radio' value='2'>「右の画像」が難しい
-            <input name='60' type='radio' value='3'>両方が同じく簡単
-            <input name='60' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問21:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/010.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/011.jpg'></td></tr>
-            <tr><td><input name='61' type='radio' value='1'>「左」</td>
-            <td><input name='61' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='62' type='radio' value='1'>簡単
-            <input name='62' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='63' type='radio' value='1'>「右の画像」が簡単
-            <input name='63' type='radio' value='2'>「右の画像」が難しい
-            <input name='63' type='radio' value='3'>両方が同じく簡単
-            <input name='63' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問22:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/012.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/021.jpg'></td></tr>
-            <tr><td><input name='64' type='radio' value='1'>「左」</td>
-            <td><input name='64' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='65' type='radio' value='1'>簡単
-            <input name='65' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='66' type='radio' value='1'>「右の画像」が簡単
-            <input name='66' type='radio' value='2'>「右の画像」が難しい
-            <input name='66' type='radio' value='3'>両方が同じく簡単
-            <input name='66' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問23:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/005.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/025.jpg'></td></tr>
-            <tr><td><input name='67' type='radio' value='1'>「左」</td>
-            <td><input name='67' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='68' type='radio' value='1'>簡単
-            <input name='68' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='69' type='radio' value='1'>「右の画像」が簡単
-            <input name='69' type='radio' value='2'>「右の画像」が難しい
-            <input name='69' type='radio' value='3'>両方が同じく簡単
-            <input name='69' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問24:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/016.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/019.jpg'></td></tr>
-            <tr><td><input name='70' type='radio' value='1'>「左」</td>
-            <td><input name='70' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='71' type='radio' value='1'>簡単
-            <input name='71' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='72' type='radio' value='1'>「右の画像」が簡単
-            <input name='72' type='radio' value='2'>「右の画像」が難しい
-            <input name='72' type='radio' value='3'>両方が同じく簡単
-            <input name='72' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問25:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/006.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/008.jpg'></td></tr>
-            <tr><td><input name='73' type='radio' value='1'>「左」</td>
-            <td><input name='73' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='74' type='radio' value='1'>簡単
-            <input name='74' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='75' type='radio' value='1'>「右の画像」が簡単
-            <input name='75' type='radio' value='2'>「右の画像」が難しい
-            <input name='75' type='radio' value='3'>両方が同じく簡単
-            <input name='75' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問26:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/016.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/021.jpg'></td></tr>
-            <tr><td><input name='76' type='radio' value='1'>「左」</td>
-            <td><input name='76' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='77' type='radio' value='1'>簡単
-            <input name='77' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='78' type='radio' value='1'>「右の画像」が簡単
-            <input name='78' type='radio' value='2'>「右の画像」が難しい
-            <input name='78' type='radio' value='3'>両方が同じく簡単
-            <input name='78' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問27:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/005.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/007.jpg'></td></tr>
-            <tr><td><input name='79' type='radio' value='1'>「左」</td>
-            <td><input name='79' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='80' type='radio' value='1'>簡単
-            <input name='80' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='81' type='radio' value='1'>「右の画像」が簡単
-            <input name='81' type='radio' value='2'>「右の画像」が難しい
-            <input name='81' type='radio' value='3'>両方が同じく簡単
-            <input name='81' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問28:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/018.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/022.jpg'></td></tr>
-            <tr><td><input name='82' type='radio' value='1'>「左」</td>
-            <td><input name='82' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='83' type='radio' value='1'>簡単
-            <input name='83' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='84' type='radio' value='1'>「右の画像」が簡単
-            <input name='84' type='radio' value='2'>「右の画像」が難しい
-            <input name='84' type='radio' value='3'>両方が同じく簡単
-            <input name='84' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問29:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/012.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/022.jpg'></td></tr>
-            <tr><td><input name='85' type='radio' value='1'>「左」</td>
-            <td><input name='85' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='86' type='radio' value='1'>簡単
-            <input name='86' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='87' type='radio' value='1'>「右の画像」が簡単
-            <input name='87' type='radio' value='2'>「右の画像」が難しい
-            <input name='87' type='radio' value='3'>両方が同じく簡単
-            <input name='87' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問30:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/021.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/023.jpg'></td></tr>
-            <tr><td><input name='88' type='radio' value='1'>「左」</td>
-            <td><input name='88' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='89' type='radio' value='1'>簡単
-            <input name='89' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='90' type='radio' value='1'>「右の画像」が簡単
-            <input name='90' type='radio' value='2'>「右の画像」が難しい
-            <input name='90' type='radio' value='3'>両方が同じく簡単
-            <input name='90' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問31:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/006.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/016.jpg'></td></tr>
-            <tr><td><input name='91' type='radio' value='1'>「左」</td>
-            <td><input name='91' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='92' type='radio' value='1'>簡単
-            <input name='92' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='93' type='radio' value='1'>「右の画像」が簡単
-            <input name='93' type='radio' value='2'>「右の画像」が難しい
-            <input name='93' type='radio' value='3'>両方が同じく簡単
-            <input name='93' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問32:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/020.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/024.jpg'></td></tr>
-            <tr><td><input name='94' type='radio' value='1'>「左」</td>
-            <td><input name='94' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='95' type='radio' value='1'>簡単
-            <input name='95' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='96' type='radio' value='1'>「右の画像」が簡単
-            <input name='96' type='radio' value='2'>「右の画像」が難しい
-            <input name='96' type='radio' value='3'>両方が同じく簡単
-            <input name='96' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問33:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/003.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/006.jpg'></td></tr>
-            <tr><td><input name='97' type='radio' value='1'>「左」</td>
-            <td><input name='97' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='98' type='radio' value='1'>簡単
-            <input name='98' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='99' type='radio' value='1'>「右の画像」が簡単
-            <input name='99' type='radio' value='2'>「右の画像」が難しい
-            <input name='99' type='radio' value='3'>両方が同じく簡単
-            <input name='99' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問34:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/013.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/016.jpg'></td></tr>
-            <tr><td><input name='100' type='radio' value='1'>「左」</td>
-            <td><input name='100' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='101' type='radio' value='1'>簡単
-            <input name='101' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='102' type='radio' value='1'>「右の画像」が簡単
-            <input name='102' type='radio' value='2'>「右の画像」が難しい
-            <input name='102' type='radio' value='3'>両方が同じく簡単
-            <input name='102' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問35:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/010.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/019.jpg'></td></tr>
-            <tr><td><input name='103' type='radio' value='1'>「左」</td>
-            <td><input name='103' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='104' type='radio' value='1'>簡単
-            <input name='104' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='105' type='radio' value='1'>「右の画像」が簡単
-            <input name='105' type='radio' value='2'>「右の画像」が難しい
-            <input name='105' type='radio' value='3'>両方が同じく簡単
-            <input name='105' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問36:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/007.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/008.jpg'></td></tr>
-            <tr><td><input name='106' type='radio' value='1'>「左」</td>
-            <td><input name='106' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='107' type='radio' value='1'>簡単
-            <input name='107' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='108' type='radio' value='1'>「右の画像」が簡単
-            <input name='108' type='radio' value='2'>「右の画像」が難しい
-            <input name='108' type='radio' value='3'>両方が同じく簡単
-            <input name='108' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問37:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/003.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/018.jpg'></td></tr>
-            <tr><td><input name='109' type='radio' value='1'>「左」</td>
-            <td><input name='109' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='110' type='radio' value='1'>簡単
-            <input name='110' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='111' type='radio' value='1'>「右の画像」が簡単
-            <input name='111' type='radio' value='2'>「右の画像」が難しい
-            <input name='111' type='radio' value='3'>両方が同じく簡単
-            <input name='111' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問38:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/003.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/014.jpg'></td></tr>
-            <tr><td><input name='112' type='radio' value='1'>「左」</td>
-            <td><input name='112' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='113' type='radio' value='1'>簡単
-            <input name='113' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='114' type='radio' value='1'>「右の画像」が簡単
-            <input name='114' type='radio' value='2'>「右の画像」が難しい
-            <input name='114' type='radio' value='3'>両方が同じく簡単
-            <input name='114' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問39:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/019.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/022.jpg'></td></tr>
-            <tr><td><input name='115' type='radio' value='1'>「左」</td>
-            <td><input name='115' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='116' type='radio' value='1'>簡単
-            <input name='116' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='117' type='radio' value='1'>「右の画像」が簡単
-            <input name='117' type='radio' value='2'>「右の画像」が難しい
-            <input name='117' type='radio' value='3'>両方が同じく簡単
-            <input name='117' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問40:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/002.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/016.jpg'></td></tr>
-            <tr><td><input name='118' type='radio' value='1'>「左」</td>
-            <td><input name='118' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='119' type='radio' value='1'>簡単
-            <input name='119' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='120' type='radio' value='1'>「右の画像」が簡単
-            <input name='120' type='radio' value='2'>「右の画像」が難しい
-            <input name='120' type='radio' value='3'>両方が同じく簡単
-            <input name='120' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問41:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/008.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/022.jpg'></td></tr>
-            <tr><td><input name='121' type='radio' value='1'>「左」</td>
-            <td><input name='121' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='122' type='radio' value='1'>簡単
-            <input name='122' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='123' type='radio' value='1'>「右の画像」が簡単
-            <input name='123' type='radio' value='2'>「右の画像」が難しい
-            <input name='123' type='radio' value='3'>両方が同じく簡単
-            <input name='123' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問42:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/009.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/012.jpg'></td></tr>
-            <tr><td><input name='124' type='radio' value='1'>「左」</td>
-            <td><input name='124' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='125' type='radio' value='1'>簡単
-            <input name='125' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='126' type='radio' value='1'>「右の画像」が簡単
-            <input name='126' type='radio' value='2'>「右の画像」が難しい
-            <input name='126' type='radio' value='3'>両方が同じく簡単
-            <input name='126' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問43:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/004.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/022.jpg'></td></tr>
-            <tr><td><input name='127' type='radio' value='1'>「左」</td>
-            <td><input name='127' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='128' type='radio' value='1'>簡単
-            <input name='128' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='129' type='radio' value='1'>「右の画像」が簡単
-            <input name='129' type='radio' value='2'>「右の画像」が難しい
-            <input name='129' type='radio' value='3'>両方が同じく簡単
-            <input name='129' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問44:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/003.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/010.jpg'></td></tr>
-            <tr><td><input name='130' type='radio' value='1'>「左」</td>
-            <td><input name='130' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='131' type='radio' value='1'>簡単
-            <input name='131' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='132' type='radio' value='1'>「右の画像」が簡単
-            <input name='132' type='radio' value='2'>「右の画像」が難しい
-            <input name='132' type='radio' value='3'>両方が同じく簡単
-            <input name='132' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問45:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/004.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/020.jpg'></td></tr>
-            <tr><td><input name='133' type='radio' value='1'>「左」</td>
-            <td><input name='133' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='134' type='radio' value='1'>簡単
-            <input name='134' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='135' type='radio' value='1'>「右の画像」が簡単
-            <input name='135' type='radio' value='2'>「右の画像」が難しい
-            <input name='135' type='radio' value='3'>両方が同じく簡単
-            <input name='135' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問46:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/011.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/025.jpg'></td></tr>
-            <tr><td><input name='136' type='radio' value='1'>「左」</td>
-            <td><input name='136' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='137' type='radio' value='1'>簡単
-            <input name='137' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='138' type='radio' value='1'>「右の画像」が簡単
-            <input name='138' type='radio' value='2'>「右の画像」が難しい
-            <input name='138' type='radio' value='3'>両方が同じく簡単
-            <input name='138' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問47:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/003.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/021.jpg'></td></tr>
-            <tr><td><input name='139' type='radio' value='1'>「左」</td>
-            <td><input name='139' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='140' type='radio' value='1'>簡単
-            <input name='140' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='141' type='radio' value='1'>「右の画像」が簡単
-            <input name='141' type='radio' value='2'>「右の画像」が難しい
-            <input name='141' type='radio' value='3'>両方が同じく簡単
-            <input name='141' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問48:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/014.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/020.jpg'></td></tr>
-            <tr><td><input name='142' type='radio' value='1'>「左」</td>
-            <td><input name='142' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='143' type='radio' value='1'>簡単
-            <input name='143' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='144' type='radio' value='1'>「右の画像」が簡単
-            <input name='144' type='radio' value='2'>「右の画像」が難しい
-            <input name='144' type='radio' value='3'>両方が同じく簡単
-            <input name='144' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問49:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/004.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/024.jpg'></td></tr>
-            <tr><td><input name='145' type='radio' value='1'>「左」</td>
-            <td><input name='145' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='146' type='radio' value='1'>簡単
-            <input name='146' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='147' type='radio' value='1'>「右の画像」が簡単
-            <input name='147' type='radio' value='2'>「右の画像」が難しい
-            <input name='147' type='radio' value='3'>両方が同じく簡単
-            <input name='147' type='radio' value='4'>両方が同じく難しい</td></tr>
-            <tr style='border-top: 2pt solid black'><td colspan='2'>質問50:より好きな方を選んでください</td></tr>
-            <tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/007.jpg'></td>
-            <td><img width='200' src='https://github.com/zchenry/data/raw/master/car/015.jpg'></td></tr>
-            <tr><td><input name='148' type='radio' value='1'>「左」</td>
-            <td><input name='148' type='radio' value='2'>「右」</td></tr>
-            <tr style='border-bottom: 2pt dashed black'><td colspan='2'>この質問はそれぞれの車の好き嫌いを直接判断するより
-            <input name='149' type='radio' value='1'>簡単
-            <input name='149' type='radio' value='2'>難しい</td></tr>
-            <tr><td colspan='2'>「左の画像」と比べて「右の画像」の好き嫌いを直接判定する難易度は</td></tr>
-            <tr><td colspan='2'>
-            <input name='150' type='radio' value='1'>「右の画像」が簡単
-            <input name='150' type='radio' value='2'>「右の画像」が難しい
-            <input name='150' type='radio' value='3'>両方が同じく簡単
-            <input name='150' type='radio' value='4'>両方が同じく難しい</td></tr>
+    <tr style='border-top: 2pt solid black'><td>質問1:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/101.jpg'></td></tr>
+            <tr><td><input name='1' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='1' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='1' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='1' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='1' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='2' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='2' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='2' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='2' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='2' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問2:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/102.jpg'></td></tr>
+            <tr><td><input name='3' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='3' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='3' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='3' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='3' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='4' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='4' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='4' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='4' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='4' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問3:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/103.jpg'></td></tr>
+            <tr><td><input name='5' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='5' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='5' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='5' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='5' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='6' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='6' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='6' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='6' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='6' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問4:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/104.jpg'></td></tr>
+            <tr><td><input name='7' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='7' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='7' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='7' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='7' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='8' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='8' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='8' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='8' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='8' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問5:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/105.jpg'></td></tr>
+            <tr><td><input name='9' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='9' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='9' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='9' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='9' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='10' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='10' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='10' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='10' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='10' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問6:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/106.jpg'></td></tr>
+            <tr><td><input name='11' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='11' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='11' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='11' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='11' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='12' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='12' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='12' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='12' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='12' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問7:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/107.jpg'></td></tr>
+            <tr><td><input name='13' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='13' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='13' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='13' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='13' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='14' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='14' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='14' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='14' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='14' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問8:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/108.jpg'></td></tr>
+            <tr><td><input name='15' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='15' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='15' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='15' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='15' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='16' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='16' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='16' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='16' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='16' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問9:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/109.jpg'></td></tr>
+            <tr><td><input name='17' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='17' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='17' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='17' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='17' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='18' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='18' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='18' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='18' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='18' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問10:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/110.jpg'></td></tr>
+            <tr><td><input name='19' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='19' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='19' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='19' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='19' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='20' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='20' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='20' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='20' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='20' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問11:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/111.jpg'></td></tr>
+            <tr><td><input name='21' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='21' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='21' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='21' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='21' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='22' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='22' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='22' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='22' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='22' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問12:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/112.jpg'></td></tr>
+            <tr><td><input name='23' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='23' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='23' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='23' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='23' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='24' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='24' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='24' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='24' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='24' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問13:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/113.jpg'></td></tr>
+            <tr><td><input name='25' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='25' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='25' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='25' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='25' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='26' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='26' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='26' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='26' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='26' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問14:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/114.jpg'></td></tr>
+            <tr><td><input name='27' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='27' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='27' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='27' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='27' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='28' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='28' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='28' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='28' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='28' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問15:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/115.jpg'></td></tr>
+            <tr><td><input name='29' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='29' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='29' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='29' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='29' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='30' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='30' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='30' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='30' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='30' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問16:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/116.jpg'></td></tr>
+            <tr><td><input name='31' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='31' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='31' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='31' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='31' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='32' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='32' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='32' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='32' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='32' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問17:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/117.jpg'></td></tr>
+            <tr><td><input name='33' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='33' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='33' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='33' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='33' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='34' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='34' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='34' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='34' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='34' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問18:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/118.jpg'></td></tr>
+            <tr><td><input name='35' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='35' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='35' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='35' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='35' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='36' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='36' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='36' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='36' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='36' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問19:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/119.jpg'></td></tr>
+            <tr><td><input name='37' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='37' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='37' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='37' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='37' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='38' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='38' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='38' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='38' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='38' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問20:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/120.jpg'></td></tr>
+            <tr><td><input name='39' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='39' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='39' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='39' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='39' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='40' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='40' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='40' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='40' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='40' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問21:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/121.jpg'></td></tr>
+            <tr><td><input name='41' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='41' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='41' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='41' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='41' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='42' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='42' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='42' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='42' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='42' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問22:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/122.jpg'></td></tr>
+            <tr><td><input name='43' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='43' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='43' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='43' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='43' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='44' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='44' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='44' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='44' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='44' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問23:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/123.jpg'></td></tr>
+            <tr><td><input name='45' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='45' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='45' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='45' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='45' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='46' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='46' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='46' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='46' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='46' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問24:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/124.jpg'></td></tr>
+            <tr><td><input name='47' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='47' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='47' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='47' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='47' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='48' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='48' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='48' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='48' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='48' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問25:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/125.jpg'></td></tr>
+            <tr><td><input name='49' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='49' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='49' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='49' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='49' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='50' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='50' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='50' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='50' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='50' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問26:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/126.jpg'></td></tr>
+            <tr><td><input name='51' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='51' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='51' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='51' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='51' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='52' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='52' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='52' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='52' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='52' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問27:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/127.jpg'></td></tr>
+            <tr><td><input name='53' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='53' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='53' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='53' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='53' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='54' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='54' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='54' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='54' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='54' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問28:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/128.jpg'></td></tr>
+            <tr><td><input name='55' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='55' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='55' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='55' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='55' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='56' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='56' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='56' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='56' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='56' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問29:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/129.jpg'></td></tr>
+            <tr><td><input name='57' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='57' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='57' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='57' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='57' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='58' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='58' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='58' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='58' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='58' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問30:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/130.jpg'></td></tr>
+            <tr><td><input name='59' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='59' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='59' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='59' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='59' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='60' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='60' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='60' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='60' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='60' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問31:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/131.jpg'></td></tr>
+            <tr><td><input name='61' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='61' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='61' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='61' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='61' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='62' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='62' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='62' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='62' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='62' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問32:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/132.jpg'></td></tr>
+            <tr><td><input name='63' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='63' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='63' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='63' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='63' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='64' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='64' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='64' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='64' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='64' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問33:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/133.jpg'></td></tr>
+            <tr><td><input name='65' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='65' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='65' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='65' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='65' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='66' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='66' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='66' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='66' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='66' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問34:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/134.jpg'></td></tr>
+            <tr><td><input name='67' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='67' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='67' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='67' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='67' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='68' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='68' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='68' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='68' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='68' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問35:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/135.jpg'></td></tr>
+            <tr><td><input name='69' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='69' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='69' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='69' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='69' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='70' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='70' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='70' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='70' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='70' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問36:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/136.jpg'></td></tr>
+            <tr><td><input name='71' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='71' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='71' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='71' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='71' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='72' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='72' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='72' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='72' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='72' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問37:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/137.jpg'></td></tr>
+            <tr><td><input name='73' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='73' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='73' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='73' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='73' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='74' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='74' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='74' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='74' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='74' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問38:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/138.jpg'></td></tr>
+            <tr><td><input name='75' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='75' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='75' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='75' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='75' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='76' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='76' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='76' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='76' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='76' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問39:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/139.jpg'></td></tr>
+            <tr><td><input name='77' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='77' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='77' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='77' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='77' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='78' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='78' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='78' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='78' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='78' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問40:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/140.jpg'></td></tr>
+            <tr><td><input name='79' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='79' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='79' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='79' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='79' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='80' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='80' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='80' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='80' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='80' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問41:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/141.jpg'></td></tr>
+            <tr><td><input name='81' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='81' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='81' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='81' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='81' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='82' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='82' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='82' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='82' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='82' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問42:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/142.jpg'></td></tr>
+            <tr><td><input name='83' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='83' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='83' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='83' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='83' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='84' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='84' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='84' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='84' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='84' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問43:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/143.jpg'></td></tr>
+            <tr><td><input name='85' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='85' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='85' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='85' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='85' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='86' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='86' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='86' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='86' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='86' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問44:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/144.jpg'></td></tr>
+            <tr><td><input name='87' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='87' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='87' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='87' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='87' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='88' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='88' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='88' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='88' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='88' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問45:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/145.jpg'></td></tr>
+            <tr><td><input name='89' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='89' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='89' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='89' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='89' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='90' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='90' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='90' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='90' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='90' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問46:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/146.jpg'></td></tr>
+            <tr><td><input name='91' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='91' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='91' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='91' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='91' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='92' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='92' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='92' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='92' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='92' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問47:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/147.jpg'></td></tr>
+            <tr><td><input name='93' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='93' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='93' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='93' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='93' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='94' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='94' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='94' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='94' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='94' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問48:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/148.jpg'></td></tr>
+            <tr><td><input name='95' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='95' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='95' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='95' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='95' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='96' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='96' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='96' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='96' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='96' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問49:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/149.jpg'></td></tr>
+            <tr><td><input name='97' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='97' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='97' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='97' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='97' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='98' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='98' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='98' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='98' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='98' type='radio' value='5'>難しい</td></tr>
+            <tr style='border-top: 2pt solid black'><td>質問50:この車のデザインに対する印象を答えてください</td></tr><tr><td><img width='200' src='https://github.com/zchenry/data/raw/master/car/150.jpg'></td></tr>
+            <tr><td><input name='99' type='radio' value='1'>好き</td></tr>
+            <tr><td><input name='99' type='radio' value='2'>どちらというと好き</td></tr>
+            <tr><td><input name='99' type='radio' value='3'>普通</td></tr>
+            <tr><td><input name='99' type='radio' value='4'>どちらというと好きではない</td></tr>
+            <tr><td><input name='99' type='radio' value='5'>好きではない</td></tr>
+            <tr style='border-top: 2pt dashed black'><td>この判断は難易度は</td></tr>
+            <tr><td><input name='100' type='radio' value='1'>簡単</td></tr>
+            <tr><td><input name='100' type='radio' value='2'>どちらというと簡単</td></tr>
+            <tr><td><input name='100' type='radio' value='3'>どちらとも言えない</td></tr>
+            <tr><td><input name='100' type='radio' value='4'>どちらというと難しい</td></tr>
+            <tr><td><input name='100' type='radio' value='5'>難しい</td></tr>
             </tbody></table>
     <p id='warn' style='display: None; color: red'>Lancers IDが未記入、または未回答の問題があります</p>
     <p id='fail' style='display: None; color: red'>提出失敗しました、もう一回お試しください</p>
@@ -718,11 +618,7 @@
 <script>
   var lans;
   var page = parseInt($('#lancer').data('page'));
-  if (page >= 7) {
-    var ans = new Array(100).fill(0);
-  } else {
-    var ans = new Array(150).fill(0);
-  }
+  var ans = new Array(100).fill(0);
 
   $('input:text').on('input', function() {
       $('#warn').hide();
@@ -752,7 +648,7 @@
               data: dict,
               success: function(res) {
                   $('#btn').text('提出完了しました');
-                  if (page == 9) {
+                  if (page == 3) {
                       $('span#spanw').text(res['password']);
                       $('p#pw').show();
                   } else {
