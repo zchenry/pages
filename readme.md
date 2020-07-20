@@ -1,4 +1,3 @@
-- 車のユーザーアンケート [[kisaran455]](https://blog.henryfren.ch/pages/car-user-kisaran455) [[lc02102]](https://blog.henryfren.ch/pages/car-user-lc02102) [[pon23san]](https://blog.henryfren.ch/pages/car-user-pon23san) [[recluse]](https://blog.henryfren.ch/pages/car-user-recluse)
-
-- くずし字の難易度付き絶対評価 [[プレビュー]](https://blog.henryfren.ch/pages/kuzushi.html) [[ソース]](https://raw.githubusercontent.com/zchenry/pages/master/kuzushi.html)
-
+- くずし字で曖昧比較と絶対評価の難易度比較
+  - 1ページ目 [[プレビュー]](https://blog.henryfren.ch/pages/collect25-1.html) [[ソース]](https://raw.githubusercontent.com/zchenry/pages/master/collect25-1.html)
+  - 2ページ目 [[プレビュー]](https://blog.henryfren.ch/pages/collect25-2.html) [[ソース]](https://raw.githubusercontent.com/zchenry/pages/master/collect25-2.html)
