@@ -1,3 +1,1 @@
-- くずし字で曖昧比較と絶対評価の難易度比較
-  - 1ページ目 [[プレビュー]](https://blog.henryfren.ch/pages/collect25-1.html) [[ソース]](https://raw.githubusercontent.com/zchenry/pages/master/collect25-1.html)
-  - 2ページ目 [[プレビュー]](https://blog.henryfren.ch/pages/collect25-2.html) [[ソース]](https://raw.githubusercontent.com/zchenry/pages/master/collect25-2.html)
+- 車の評価 [[ページ]](https://blog.henryfren.ch/pages/car-1jhTHfI.html)
