@@ -1,8 +1,8 @@
-### 記事タイトルが釣りであるかどうか判定
+### 問題発言であるかどうか判定
 
-アルゴリズムに実際クエリされたペアを評価するページ。
-
-| ページ名 | ペア数 | プレビュー | ソース | フィアル長 |
+| ページ名 | 問題数 | プレビュー | ソース | フィアル長 |
 ----|----|----|----|----|
-| ページ1 | 25ペア | [[プレビュー]](http://blog.henryfren.ch/pages/clickbait-h-1.html) | [[ソース]](https://raw.githubusercontent.com/zchenry/pages/master/clickbait-h-1.html) | 21433 |
-| ページ2 | 25ペア | [[プレビュー]](http://blog.henryfren.ch/pages/clickbait-h-2.html) | [[ソース]](https://raw.githubusercontent.com/zchenry/pages/master/clickbait-h-2.html) | 21649 |
+| ページ1 | 50門 | [[プレビュー]](http://blog.henryfren.ch/pages/troll-1.html) | [[ソース]](https://raw.githubusercontent.com/zchenry/pages/master/troll-1.html) | 21084 |
+| ページ2 | 50門 | [[プレビュー]](http://blog.henryfren.ch/pages/troll-2.html) | [[ソース]](https://raw.githubusercontent.com/zchenry/pages/master/troll-2.html) | 21300 |
+| ページ3 | 50門 | [[プレビュー]](http://blog.henryfren.ch/pages/troll-3.html) | [[ソース]](https://raw.githubusercontent.com/zchenry/pages/master/troll-3.html) | 21300 |
+| ページ4 | 50門 | [[プレビュー]](http://blog.henryfren.ch/pages/troll-4.html) | [[ソース]](https://raw.githubusercontent.com/zchenry/pages/master/troll-4.html) | 21300 |
