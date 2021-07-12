@@ -3,7 +3,9 @@
     以下に「バーマン」(<a href='https://www.anicom-sompo.co.jp/nekonoshiori/2943.html'>詳しい説明</a>)または「ラグドール」(<a href='https://www.anicom-sompo.co.jp/nekonoshiori/724.html'>詳しい説明</a>)の画像があります．<br/>
     猫の種類判定に関する３種類の質問計３０問に答えてください．<br/>
     問題の難易度も答えてください．<br/>
-    最後に判定に用いたポイントも自由記述で答えてください．<br/>
+    <strong style='color:crimson'>注意：正解した問題数に応じて報酬を支払う場合とそうでない場合の取り組み方の違いについて実験しているので、<br/>今回は正解した問題数に応じて報酬を支払うものと考えて答えてください．</strong><br/>
+    (実際には不正解の問題も含めて全問分支払います) <br/>
+    最後に判定に用いた評価基準も自由記述で答えてください．<br/>
 </p>
 
 <p>問1 (直接答える)</p>
@@ -22,12 +24,14 @@
 </table>
 
 <p>問2 (三項比較)</p>
-<table><tbody><tr><td style='padding-left: 200px'><img width='200' src=https://github.com/zchenry/data/raw/master/cat/062.jpg></td></tr><tr><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/009.jpg></td><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/085.jpg></td></tr><tr><td>より上の画像に似ているのは<input name='3' type='radio' value='1'>左<input name='3' type='radio' value='2'>右</td></tr><td>本問は
+<table><tbody><tr><td style='padding-left: 200px'><img width='200' src=https://github.com/zchenry/data/raw/master/cat/062.jpg></td></tr><tr><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/009.jpg></td><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/085.jpg></td></tr><tr><td>より上の猫の品種に似ているのは<input name='3' type='radio' value='1'>左<input name='3' type='radio' value='2'>右</td></tr><td>本問は
 <input name='4' type='radio' value='1'>簡単
 <input name='4' type='radio' value='2'>困難
 </td>
 </tbody>
 </table>
+
+<strong style='color:darkslateblue'>三項比較の検証基準：以下のような場合のみ不正解とします<br/>AとBが本当は同じ品種であって、Cが別の品種であり、CがAの品種に似ていると選ばれる場合。</strong>
 
 <p>問3 (二項比較)</p>
 <table><tbody><tr><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/045.jpg></td><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/064.jpg></td></tr><tr><td>より「ラグドール」に見えるのは<input name='5' type='radio' value='1'>左<input name='5' type='radio' value='2'>右</td></tr><td>本問は
@@ -36,6 +40,8 @@
 </td>
 </tbody>
 </table>
+
+<strong style='color:darkslateblue'>二項比較の検証基準：以下のような場合のみ不正解とします<br/>Aが本当は「バーマン」であって、Bが本当は「ラグドール」であり、Aがより「ラグドール」に見えると選ばれる場合。</strong>
 
 <p>問4 (二項比較)</p>
 <table><tbody><tr><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/061.jpg></td><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/023.jpg></td></tr><tr><td>より「ラグドール」に見えるのは<input name='7' type='radio' value='1'>左<input name='7' type='radio' value='2'>右</td></tr><td>本問は
@@ -46,7 +52,7 @@
 </table>
 
 <p>問5 (三項比較)</p>
-<table><tbody><tr><td style='padding-left: 200px'><img width='200' src=https://github.com/zchenry/data/raw/master/cat/077.jpg></td></tr><tr><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/041.jpg></td><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/063.jpg></td></tr><tr><td>より上の画像に似ているのは<input name='9' type='radio' value='1'>左<input name='9' type='radio' value='2'>右</td></tr><td>本問は
+<table><tbody><tr><td style='padding-left: 200px'><img width='200' src=https://github.com/zchenry/data/raw/master/cat/077.jpg></td></tr><tr><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/041.jpg></td><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/063.jpg></td></tr><tr><td>より上の猫の品種に似ているのは<input name='9' type='radio' value='1'>左<input name='9' type='radio' value='2'>右</td></tr><td>本問は
 <input name='10' type='radio' value='1'>簡単
 <input name='10' type='radio' value='2'>困難
 </td>
@@ -54,7 +60,7 @@
 </table>
 
 <p>問6 (三項比較)</p>
-<table><tbody><tr><td style='padding-left: 200px'><img width='200' src=https://github.com/zchenry/data/raw/master/cat/078.jpg></td></tr><tr><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/026.jpg></td><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/008.jpg></td></tr><tr><td>より上の画像に似ているのは<input name='11' type='radio' value='1'>左<input name='11' type='radio' value='2'>右</td></tr><td>本問は
+<table><tbody><tr><td style='padding-left: 200px'><img width='200' src=https://github.com/zchenry/data/raw/master/cat/078.jpg></td></tr><tr><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/026.jpg></td><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/008.jpg></td></tr><tr><td>より上の猫の品種に似ているのは<input name='11' type='radio' value='1'>左<input name='11' type='radio' value='2'>右</td></tr><td>本問は
 <input name='12' type='radio' value='1'>簡単
 <input name='12' type='radio' value='2'>困難
 </td>
@@ -62,7 +68,7 @@
 </table>
 
 <p>問7 (三項比較)</p>
-<table><tbody><tr><td style='padding-left: 200px'><img width='200' src=https://github.com/zchenry/data/raw/master/cat/025.jpg></td></tr><tr><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/034.jpg></td><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/011.jpg></td></tr><tr><td>より上の画像に似ているのは<input name='13' type='radio' value='1'>左<input name='13' type='radio' value='2'>右</td></tr><td>本問は
+<table><tbody><tr><td style='padding-left: 200px'><img width='200' src=https://github.com/zchenry/data/raw/master/cat/025.jpg></td></tr><tr><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/034.jpg></td><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/011.jpg></td></tr><tr><td>より上の猫の品種に似ているのは<input name='13' type='radio' value='1'>左<input name='13' type='radio' value='2'>右</td></tr><td>本問は
 <input name='14' type='radio' value='1'>簡単
 <input name='14' type='radio' value='2'>困難
 </td>
@@ -86,7 +92,7 @@
 </table>
 
 <p>問10 (三項比較)</p>
-<table><tbody><tr><td style='padding-left: 200px'><img width='200' src=https://github.com/zchenry/data/raw/master/cat/044.jpg></td></tr><tr><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/055.jpg></td><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/031.jpg></td></tr><tr><td>より上の画像に似ているのは<input name='19' type='radio' value='1'>左<input name='19' type='radio' value='2'>右</td></tr><td>本問は
+<table><tbody><tr><td style='padding-left: 200px'><img width='200' src=https://github.com/zchenry/data/raw/master/cat/044.jpg></td></tr><tr><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/055.jpg></td><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/031.jpg></td></tr><tr><td>より上の猫の品種に似ているのは<input name='19' type='radio' value='1'>左<input name='19' type='radio' value='2'>右</td></tr><td>本問は
 <input name='20' type='radio' value='1'>簡単
 <input name='20' type='radio' value='2'>困難
 </td>
@@ -140,7 +146,7 @@
 </table>
 
 <p>問15 (三項比較)</p>
-<table><tbody><tr><td style='padding-left: 200px'><img width='200' src=https://github.com/zchenry/data/raw/master/cat/070.jpg></td></tr><tr><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/017.jpg></td><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/022.jpg></td></tr><tr><td>より上の画像に似ているのは<input name='29' type='radio' value='1'>左<input name='29' type='radio' value='2'>右</td></tr><td>本問は
+<table><tbody><tr><td style='padding-left: 200px'><img width='200' src=https://github.com/zchenry/data/raw/master/cat/070.jpg></td></tr><tr><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/017.jpg></td><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/022.jpg></td></tr><tr><td>より上の猫の品種に似ているのは<input name='29' type='radio' value='1'>左<input name='29' type='radio' value='2'>右</td></tr><td>本問は
 <input name='30' type='radio' value='1'>簡単
 <input name='30' type='radio' value='2'>困難
 </td>
@@ -148,7 +154,7 @@
 </table>
 
 <p>問16 (三項比較)</p>
-<table><tbody><tr><td style='padding-left: 200px'><img width='200' src=https://github.com/zchenry/data/raw/master/cat/014.jpg></td></tr><tr><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/067.jpg></td><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/082.jpg></td></tr><tr><td>より上の画像に似ているのは<input name='31' type='radio' value='1'>左<input name='31' type='radio' value='2'>右</td></tr><td>本問は
+<table><tbody><tr><td style='padding-left: 200px'><img width='200' src=https://github.com/zchenry/data/raw/master/cat/014.jpg></td></tr><tr><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/067.jpg></td><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/082.jpg></td></tr><tr><td>より上の猫の品種に似ているのは<input name='31' type='radio' value='1'>左<input name='31' type='radio' value='2'>右</td></tr><td>本問は
 <input name='32' type='radio' value='1'>簡単
 <input name='32' type='radio' value='2'>困難
 </td>
@@ -171,7 +177,7 @@
 </table>
 
 <p>問18 (三項比較)</p>
-<table><tbody><tr><td style='padding-left: 200px'><img width='200' src=https://github.com/zchenry/data/raw/master/cat/099.jpg></td></tr><tr><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/016.jpg></td><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/052.jpg></td></tr><tr><td>より上の画像に似ているのは<input name='35' type='radio' value='1'>左<input name='35' type='radio' value='2'>右</td></tr><td>本問は
+<table><tbody><tr><td style='padding-left: 200px'><img width='200' src=https://github.com/zchenry/data/raw/master/cat/099.jpg></td></tr><tr><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/016.jpg></td><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/052.jpg></td></tr><tr><td>より上の猫の品種に似ているのは<input name='35' type='radio' value='1'>左<input name='35' type='radio' value='2'>右</td></tr><td>本問は
 <input name='36' type='radio' value='1'>簡単
 <input name='36' type='radio' value='2'>困難
 </td>
@@ -255,7 +261,7 @@
 </table>
 
 <p>問25 (三項比較)</p>
-<table><tbody><tr><td style='padding-left: 200px'><img width='200' src=https://github.com/zchenry/data/raw/master/cat/068.jpg></td></tr><tr><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/013.jpg></td><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/060.jpg></td></tr><tr><td>より上の画像に似ているのは<input name='49' type='radio' value='1'>左<input name='49' type='radio' value='2'>右</td></tr><td>本問は
+<table><tbody><tr><td style='padding-left: 200px'><img width='200' src=https://github.com/zchenry/data/raw/master/cat/068.jpg></td></tr><tr><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/013.jpg></td><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/060.jpg></td></tr><tr><td>より上の猫の品種に似ているのは<input name='49' type='radio' value='1'>左<input name='49' type='radio' value='2'>右</td></tr><td>本問は
 <input name='50' type='radio' value='1'>簡単
 <input name='50' type='radio' value='2'>困難
 </td>
@@ -293,7 +299,7 @@
 </table>
 
 <p>問28 (三項比較)</p>
-<table><tbody><tr><td style='padding-left: 200px'><img width='200' src=https://github.com/zchenry/data/raw/master/cat/028.jpg></td></tr><tr><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/019.jpg></td><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/047.jpg></td></tr><tr><td>より上の画像に似ているのは<input name='55' type='radio' value='1'>左<input name='55' type='radio' value='2'>右</td></tr><td>本問は
+<table><tbody><tr><td style='padding-left: 200px'><img width='200' src=https://github.com/zchenry/data/raw/master/cat/028.jpg></td></tr><tr><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/019.jpg></td><td><img width='200' src=https://github.com/zchenry/data/raw/master/cat/047.jpg></td></tr><tr><td>より上の猫の品種に似ているのは<input name='55' type='radio' value='1'>左<input name='55' type='radio' value='2'>右</td></tr><td>本問は
 <input name='56' type='radio' value='1'>簡単
 <input name='56' type='radio' value='2'>困難
 </td>
